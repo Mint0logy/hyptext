@@ -1,24 +1,30 @@
-:root {
+#root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
+  --primary-color: #4466FF;
+  --background-color: #f8f9fa;
+
   color-scheme: light dark;
   color: rgb(0, 0, 0);
-  background-color: #f8f9fa;
+  background-color: var(--background-color);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 100vw;
-  min-height: 100vh;
+  padding: 0;
 }
 
 h1 {

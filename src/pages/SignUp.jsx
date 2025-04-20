@@ -1,10 +1,8 @@
 import React from "react";
-import styled from "styled-components";
+import SignUpForm from "../components/SignUpForm";
 
-const SignUp = () =>{
-    return (<Container>
-        Sign Up
-    </Container>);
-}
+const SignUp = () => {
+  return <SignUpForm />;
+};
 
 export default SignUp;
